@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel{
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 90vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.panel input, .panel button{
+    padding: 10px;
+}
+.panel .player button{
+    margin-left: 10px;
+    background-color: lightcoral;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.panel input:not(:nth-child(1)){
+    width: 45px;
+}
+.player{
+    margin: 20px 0;
+}
+#addRow{
+    background-color: lightseagreen;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
